@@ -29,7 +29,9 @@
             padding: 8px;
             text-align: left;
         }
-        th {
+        /* 순위 열에만 배경색 적용 */
+        td:first-child,
+        th:first-child {
             background-color: #f2f2f2;
         }
     </style>
@@ -52,29 +54,29 @@
                 <td>1</td>
                 <td>Claude</td>
                 <td>20000</td>
-                <th>Anthropic</th>
-                <th>2024/4</th>
+                <td>Anthropic</td>
+                <td>2024/4</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>GPT4o</td>
                 <td>10000</td>
-                <th>OpenAI</th>
-                <th>2023/10</th>
+                <td>OpenAI</td>
+                <td>2023/10</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Gemini</td>
                 <td>not yet</td>
-                <th>Google</th>
-                <th>2023/11</th>
+                <td>Google</td>
+                <td>2023/11</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Naver</td>
                 <td>Not yet</td>
-                <th>제작자</th>
-                <th>unknown</th>
+                <td>제작자</td>
+                <td>unknown</td>
             </tr>
         </table>
     </main>
